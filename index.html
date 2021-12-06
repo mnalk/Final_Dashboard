@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Style the element with the id "myHeader" */
+      #my_dataviz1 {
+        background-color: lightgoldenrodyellow;
+        color: rgb(238, 149, 149);
+        width: 1500px;
+        height: 2700px;
+        text-align: center;
+        border: 5px solid #33137e;
+      }
+
+      /* Style the element with the id "myHeader" */
+      #my_dataviz2 {
+        background-color: lightgoldenrodyellow;
+        width: 1500px;
+        height: 200px;
+        text-align: center;
+        border: 5px solid #33137e;
+      }
+
+
+      #root {
+        background-color: lightgoldenrodyellow;
+        width: 1500px;
+        height: 600px;
+        text-align: center;
+        border: 5px solid #33137e;
+      }
+    </style>
+
+    <title>
+      Fork of Fork of Fork of Suicide Rates 11/17/2021
+    </title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.9.0/umd/react-dom.production.min.js"></script>
+   <!-- <script src="https://unpkg.com/d3@5.11.0/dist/d3.min.js"></script>-->
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://unpkg.com/@tippyjs/react@4.2.6/dist/tippy-react.umd.min.js"></script>
+
+    <script src="https://unpkg.com/browse/tippy.js@6.3.7/themes/light.css"></script>
+    <script src="https://unpkg.com/tippy.js@6/headless/dist/tippy-headless.umd.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+  </head>
+  <body>
+    <!-- <div id="root"> -->
+    <!-- <script src="bundle.js"></script> -->
+   
+    
+    <body style="background-color:lightgoldenrodyellow;"></body>
+    <font size="5" color="blue" face="arial">
+      <center>  Suicide Data Dashboard</center>
+    </font>
+  
+    <div id="my_dataviz2">
+      <script src="line2.js"></script>
+    </div>
+
+    <div id="my_dataviz1">
+      <script src="line.js"></script>
+    </div>
+
+    <div id="root">
+      <script src="bundle.js"></script>
+    </div>
+  </body>
+</html>
